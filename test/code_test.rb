@@ -13,5 +13,6 @@ class CodeTest < MiniTest::Test
 
   def test_it_has_pegs
     assert_equal @code.pegs.count, 4
+    assert_instance_of Peg, @code.pegs.first
   end
 end
