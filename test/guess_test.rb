@@ -1,6 +1,7 @@
 require './test/test_helper'
 require './lib/code'
 require './lib/peg'
+require './lib/guess'
 
 class GuessTest < MiniTest::Test
   def setup
