@@ -1,8 +1,8 @@
 class Code
   attr_reader :pegs
 
-  def initialize
-    @pegs = random_pegs
+  def initialize(pegs = random_pegs)
+    @pegs = pegs
   end
 
   def random_pegs
